@@ -10,7 +10,7 @@ public class Sc_PlayerControler : MonoBehaviour
     float vertical;
     float moveLimiter = 0.7f;
 
-    public float runSpeed = 20.0f;
+    public float runSpeed = 4f;
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
