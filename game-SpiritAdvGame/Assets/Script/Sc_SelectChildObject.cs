@@ -5,6 +5,9 @@ using UnityEngine;
 public class Sc_SelectChildObject : MonoBehaviour
 {
     private SpriteRenderer mySpriteRenderer;
+    public bool isSpirit = true;
+    public bool hasLegs = false;
+    public bool hasArms = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -12,32 +15,23 @@ public class Sc_SelectChildObject : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.name == "Legs")
         {
+            isSpirit = false;
+            hasLegs = true;
             mySpriteRenderer.enabled = false;
             Destroy(collision.gameObject);
-            transform.Find("PlayerC").gameObject.SetActive(false);
             transform.Find("PlayerB").gameObject.SetActive(false);
             transform.Find("PlayerA").gameObject.SetActive(true);
             
         }
         if (collision.name == "Body" && transform.Find("PlayerA").gameObject.activeSelf)
         {
+            hasArms = true;
             transform.Find("PlayerA").gameObject.SetActive(false);
-            transform.Find("PlayerC").gameObject.SetActive(false);
             transform.Find("PlayerB").gameObject.SetActive(true);
-            Destroy(collision.gameObject);
-        }
-        if (collision.name == "Helmet" && transform.Find("PlayerB").gameObject.activeSelf)
-        {
-            transform.Find("PlayerA").gameObject.SetActive(false);
-            transform.Find("PlayerB").gameObject.SetActive(false);
-            transform.Find("PlayerC").gameObject.SetActive(true);
             Destroy(collision.gameObject);
         }
     }

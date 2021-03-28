@@ -4,72 +4,159 @@ using UnityEngine;
 
 public class Sc_PlayerControler : MonoBehaviour
 {
-    Rigidbody2D body;
+    Sc_SelectChildObject playerState;
+    public float speed = 5.0f;
+    public float dashDistance = 5.0f;
+    private float slideSpeed;
 
-    float horizontal;
-    float vertical;
-    string directionFacing = "down";
-    float moveLimiter = 0.7f;
-
-    public float runSpeed = 4.0f;
+    private State state;
+    private enum State
+    {
+        Normal,
+        Sliding
+    }
 
     bool isAttacking = false;
+    bool isIdle;
+    private Vector3 lastMoveDirection;
+    // Start is called before the first frame update
     void Start()
     {
-        body = GetComponent<Rigidbody2D>();
+        isIdle = true;
+        playerState = GetComponent<Sc_SelectChildObject>();
     }
 
+    // Update is called once per frame
     void Update()
     {
-        horizontal = Input.GetAxisRaw("Horizontal"); // -1 is left
-        vertical = Input.GetAxisRaw("Vertical"); // -1 is down
+        switch (state)
+        {
+            case State.Normal:
+                HandleMovement();
+                HandleDash();
+                HandleSlide();
+                Attack();
+                break;
+            case State.Sliding:
+                HandleSliding();
+                break;
+            default:
+                break;
+        }
 
-        ManageDirectionFaced();
-        Attack();
     }
-    void ManageDirectionFaced()
+    private void HandleMovement()
     {
-        if (horizontal < 0 )
+        float moveX = 0f;
+        float moveY = 0f;
+        if (Input.GetKey(KeyCode.W))
         {
-            directionFacing = "Left";
+            moveY = +1f;
         }
-        else if (horizontal > 0)
+        if (Input.GetKey(KeyCode.S))
         {
-            directionFacing = "Right";
+            moveY = -1f;
         }
-        else if (vertical > 0)
+        if (Input.GetKey(KeyCode.D))
         {
-            directionFacing = "Up";
+            moveX = 1f;
         }
-        else if (vertical < 0)
+        if (Input.GetKey(KeyCode.A))
         {
-            directionFacing = "Down";
+            moveX = -1f;
+        }
+        isIdle = moveX == 0 && moveY == 0;
+        if (isIdle)
+        {
+            //Play idle animation
+        }
+        else
+        {
+            Vector3 moveDir = new Vector3(moveX, moveY).normalized;
+
+            if (TryMove(moveDir, speed * Time.deltaTime))
+            {
+                //Walk Animation
+            }
+            else
+            {
+                //idle animation
+            }
+
         }
     }
-    private void FixedUpdate()
+    private bool TryMove(Vector3 baseMoveDir, float dist)
     {
-        if (horizontal != 0 && vertical != 0) 
+        Vector3 moveDir = baseMoveDir;
+        bool canMove = CanMove(moveDir, dist);
+        if (!canMove)
         {
-            horizontal *= moveLimiter;
-            vertical *= moveLimiter;
+            moveDir = new Vector3(baseMoveDir.x, 0f).normalized;
+            canMove = moveDir.x != 0f && CanMove(moveDir, dist);
+            if (!canMove)
+            {
+                moveDir = new Vector3(0f, baseMoveDir.y).normalized;
+                canMove = moveDir.y != 0f && CanMove(moveDir, dist);
+            }
+        }
+        if (canMove)
+        {
+            lastMoveDirection = moveDir;
+            transform.position += moveDir * dist;
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    private bool CanMove(Vector3 dir, float dist)
+    {
+        return Physics2D.Raycast(transform.position, dir, dist).collider == null;
+    }
+    private void HandleDash()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftShift) && playerState.hasLegs)
+        {
+            TryMove(lastMoveDirection, dashDistance);
+            //transform.position += lastMoveDirection * dashDistance;
+        }
+    }
+    private void HandleSlide()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftControl) && playerState.hasLegs)
+        {
+            state = State.Sliding;
+            slideSpeed = 20f;
+        }
+    }
+    private void HandleSliding()
+    {
+        TryMove(lastMoveDirection, slideSpeed * Time.deltaTime);
+        slideSpeed -= slideSpeed * 10f * Time.deltaTime;
+        if (slideSpeed < 5f)
+        {
+            state = State.Normal;
         }
 
-        body.velocity = new Vector2(horizontal * runSpeed, vertical * runSpeed);
     }
-
     private void Attack()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && !isAttacking)
+        if (Input.GetKeyDown(KeyCode.Space) && !isAttacking && playerState.hasArms)
         {
             isAttacking = true;
-            StartCoroutine(DoAttack()); 
+            StartCoroutine(DoAttack());
         }
     }
     IEnumerator DoAttack()
     {
-        transform.Find("Hitbox" + directionFacing).gameObject.SetActive(true);
+        //Vector3 attackPos = transform.position + lastMoveDirection * 1f;
+        //Instantiate(hitbox, attackPos, transform.rotation);
+        transform.Find("Hitbox").gameObject.SetActive(true);
+        transform.Find("Hitbox").gameObject.transform.position += lastMoveDirection * 0.8f;
         yield return new WaitForSeconds(0.1f);
-        transform.Find("Hitbox" + directionFacing).gameObject.SetActive(false);
+        transform.Find("Hitbox").gameObject.transform.position = transform.position;
+        transform.Find("Hitbox").gameObject.SetActive(false);
         isAttacking = false;
     }
 }
