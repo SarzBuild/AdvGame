@@ -6,6 +6,7 @@ using UnityEngine.PlayerLoop;
 
 public class Sc_EnemyA : MonoBehaviour
 {
+    
     public Transform target;
     private Rigidbody2D rb2d;
     private Vector2 movement;
