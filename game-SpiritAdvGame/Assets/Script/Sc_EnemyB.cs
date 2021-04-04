@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.PlayerLoop;
+using UnityEngine.SocialPlatforms;
 
-public class Sc_EnemyA : MonoBehaviour
+public class Sc_EnemyB : MonoBehaviour
 {
     public Transform target;
     private Rigidbody2D rb2d;
@@ -12,6 +11,7 @@ public class Sc_EnemyA : MonoBehaviour
     public float moveSpeed;
     public float fleeingMoveSpeed;
     public float aggroRange;
+    public float aggroRangeAttacks;
     private Vector2 originalPos;
 
     private bool playerIsInAggroRange;
@@ -30,6 +30,7 @@ public class Sc_EnemyA : MonoBehaviour
         moveSpeed = 3f;
         fleeingMoveSpeed = 2f;
         aggroRange = 10f;
+        aggroRangeAttacks = 5f;
         originalPos = rb2d.position;
     }
     void Update()
@@ -63,14 +64,13 @@ public class Sc_EnemyA : MonoBehaviour
         {
             if (playerIsInAggroRange)
             {
-                MoveAndLookTowardsPlayer();
+                FleeFromPlayer();
             }
         }
         else if (!playerIsInAggroRange)
         {
             rb2d.position = originalPos; 
-            rb2d.rotation = 0f; 
-            
+            rb2d.rotation = 0f;
         }
     }
     void EnemyBehaviourWhenCharacterHasBody()
@@ -84,19 +84,14 @@ public class Sc_EnemyA : MonoBehaviour
     {
         if (playerIsInAggroRange)
         {
-            MoveAndLookTowardsPlayer();
-        }
-    }
-    void MoveAndLookTowardsPlayer()
-    {
-        if (Vector2.Distance(transform.position, target.position) > 0.25f)
-        {
-            Vector3 direction = target.position - transform.position;
-            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-            rb2d.rotation = angle;
-            direction.Normalize();
-            movement = direction;
-            rb2d.MovePosition(transform.position + (direction * moveSpeed * Time.deltaTime));
+            if (aggroRangeAttacks > 5)
+            {  
+                RangedAttacks();
+            }
+            else
+            {
+                FleeFromPlayer();
+            }
         }
     }
 
@@ -124,5 +119,10 @@ public class Sc_EnemyA : MonoBehaviour
     void SpiritCollision()
     {
         spiritColliding = Sc_WallCollision.spiritColliding;
+    }
+
+    void RangedAttacks()
+    {
+        // Attack Mechanics
     }
 }
