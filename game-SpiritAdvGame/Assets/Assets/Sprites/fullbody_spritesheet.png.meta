@@ -1,0 +1,1486 @@
+fileFormatVersion: 2
+guid: 16a4c17bcf7d91c4ebcf9650eaa70328
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4300549955333102222
+    second: fullbody_hit_front
+  - first:
+      213: 7844069141229736628
+    second: fullbody_hit_back
+  - first:
+      213: -2241224647319159554
+    second: fullbody_hit_side
+  - first:
+      213: 6364812378103544333
+    second: fullbody_death_front1
+  - first:
+      213: -6613752842160666362
+    second: fullbody_death_front2
+  - first:
+      213: -6698858018094852253
+    second: fullbody_death_front3
+  - first:
+      213: 1400251637414057156
+    second: fullbody_death_front4
+  - first:
+      213: 1557075476491214032
+    second: fullbody_death_back1
+  - first:
+      213: -3486953998929541707
+    second: fullbody_death_back2
+  - first:
+      213: -5385264631189480398
+    second: fullbody_death_back3
+  - first:
+      213: -9081466980733130445
+    second: fullbody_death_back4
+  - first:
+      213: 6036688990487658303
+    second: fullbody_death_side1
+  - first:
+      213: -258449496592895462
+    second: fullbody_death_side2
+  - first:
+      213: 4597700486153502074
+    second: fullbody_death_side3
+  - first:
+      213: -8294558113627528702
+    second: fullbody_death_side4
+  - first:
+      213: -8162077466202038154
+    second: fullbody_attack_front1
+  - first:
+      213: 5864619987940480020
+    second: fullbody_attack_front2
+  - first:
+      213: -5387962973359332680
+    second: fullbody_attack_front3
+  - first:
+      213: -7037432277675369169
+    second: fullbody_attack_front4
+  - first:
+      213: -4241187367094514062
+    second: fullbody_attack_back1
+  - first:
+      213: -5775981173990194328
+    second: fullbody_attack_back2
+  - first:
+      213: -7761895831996943146
+    second: fullbody_attack_back3
+  - first:
+      213: -1916851161048410979
+    second: fullbody_attack_back4
+  - first:
+      213: 6727438427332943718
+    second: fullbody_attack_side1
+  - first:
+      213: -7185486496203071651
+    second: fullbody_attack_side2
+  - first:
+      213: 5196348045314549264
+    second: fullbody_attack_side3
+  - first:
+      213: -5582752056786019384
+    second: fullbody_attack_side4
+  - first:
+      213: -681480391388634253
+    second: fullbody_dash_frontback
+  - first:
+      213: 7387293992154010256
+    second: fullbody_dash_side
+  - first:
+      213: -2169945936989209863
+    second: fullbody_walk_front1
+  - first:
+      213: -2686584952211403236
+    second: fullbody_walk_front2
+  - first:
+      213: -4151187660352150522
+    second: fullbody_walk_front3
+  - first:
+      213: -669846346388158251
+    second: fullbody_walk_front4
+  - first:
+      213: -74164892895249110
+    second: fullbody_walk_front5
+  - first:
+      213: -4041680720012507245
+    second: fullbody_walk_front6
+  - first:
+      213: -9035688301513578454
+    second: fullbody_walk_back1
+  - first:
+      213: -5241148165071091041
+    second: fullbody_walk_back2
+  - first:
+      213: -8142075842357433126
+    second: fullbody_walk_back3
+  - first:
+      213: 797872910835943972
+    second: fullbody_walk_back4
+  - first:
+      213: 3567706854337209454
+    second: fullbody_walk_back5
+  - first:
+      213: 8092484685883782178
+    second: fullbody_walk_back6
+  - first:
+      213: -64338041191263554
+    second: fullbody_walk_side1
+  - first:
+      213: 3754473689346228915
+    second: fullbody_walk_side2
+  - first:
+      213: -8146614619547618653
+    second: fullbody_walk_side3
+  - first:
+      213: -72706315908825339
+    second: fullbody_walk_side4
+  - first:
+      213: 5414987683529045671
+    second: fullbody_idle_front1
+  - first:
+      213: 373076323970369032
+    second: fullbody_idle_front2
+  - first:
+      213: 6562419189693914928
+    second: fullbody_idle_front3
+  - first:
+      213: -3254119489318416779
+    second: fullbody_idle_front4
+  - first:
+      213: 6223276292223680259
+    second: fullbody_idle_back1
+  - first:
+      213: 8524927872214876833
+    second: fullbody_idle_back2
+  - first:
+      213: 8183892649301255813
+    second: fullbody_idle_back3
+  - first:
+      213: -3041291787417577326
+    second: fullbody_idle_back4
+  - first:
+      213: -4916810814926688312
+    second: fullbody_idle_side1
+  - first:
+      213: -4149670963025530964
+    second: fullbody_idle_side2
+  - first:
+      213: -42680362702534477
+    second: fullbody_idle_side3
+  - first:
+      213: 353630594632435298
+    second: fullbody_idle_side4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 90
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fullbody_hit_front
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 494
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a937a266f9eab30800000000000000
+      internalID: 4300549955333102222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_hit_back
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 494
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b21a94035bbbdc60800000000000000
+      internalID: 7844069141229736628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_hit_side
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 494
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcf0bace0295e0e0800000000000000
+      internalID: -2241224647319159554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_death_front1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 399
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0afedab22b545850800000000000000
+      internalID: 6364812378103544333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_death_front2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 399
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60988cac4da3734a0800000000000000
+      internalID: -6613752842160666362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_death_front3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 399
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367dda6ef10e803a0800000000000000
+      internalID: -6698858018094852253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_death_front4
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 399
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c459340271be6310800000000000000
+      internalID: 1400251637414057156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_death_back1
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 399
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc1bb865e7db9510800000000000000
+      internalID: 1557075476491214032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_death_back2
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 399
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b54da900d9db9fc0800000000000000
+      internalID: -3486953998929541707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_death_back3
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 399
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cd97ca952b345b0800000000000000
+      internalID: -5385264631189480398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_death_back4
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 399
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33966fd85e528f180800000000000000
+      internalID: -9081466980733130445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_death_side1
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 399
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f378137a0a6c350800000000000000
+      internalID: 6036688990487658303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_death_side2
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 399
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12b33b5d8dc96cf0800000000000000
+      internalID: -258449496592895462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_death_side3
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 399
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7df1d48b305ecf30800000000000000
+      internalID: 4597700486153502074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_death_side4
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 399
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202a564975fc3ec80800000000000000
+      internalID: -8294558113627528702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_attack_front1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 306
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670aecdf9c97abe80800000000000000
+      internalID: -8162077466202038154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_attack_front2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 305
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41419d39ec0536150800000000000000
+      internalID: 5864619987940480020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_attack_front3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 305
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2a5fde83c1a35b0800000000000000
+      internalID: -5387962973359332680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_attack_front4
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 305
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d9a4e11a4065e90800000000000000
+      internalID: -7037432277675369169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_attack_back1
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 305
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e05767f864425c0800000000000000
+      internalID: -4241187367094514062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_attack_back2
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 305
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86388f689b797dfa0800000000000000
+      internalID: -5775981173990194328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_attack_back3
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 305
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4bc367dd4384490800000000000000
+      internalID: -7761895831996943146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_attack_back4
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 305
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d941a62660af565e0800000000000000
+      internalID: -1916851161048410979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_attack_side1
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 304
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f1e7d2b99ac5d50800000000000000
+      internalID: 6727438427332943718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_attack_side2
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 304
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f137f1a16084c90800000000000000
+      internalID: -7185486496203071651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_attack_side3
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 304
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016e44a04032d1840800000000000000
+      internalID: 5196348045314549264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_attack_side4
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 304
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb103245941682b0800000000000000
+      internalID: -5582752056786019384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_dash_frontback
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 208
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373e2e5d135ea86f0800000000000000
+      internalID: -681480391388634253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_dash_side
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 208
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09297bd0fb0f48660800000000000000
+      internalID: 7387293992154010256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_walk_front1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 109
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fab4fbcaadc2e1e0800000000000000
+      internalID: -2169945936989209863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_walk_front2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 109
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e8788583557bad0800000000000000
+      internalID: -2686584952211403236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_walk_front3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 109
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604a9bc11d40466c0800000000000000
+      internalID: -4151187660352150522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_walk_front4
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 109
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8c0750c4a34b6f0800000000000000
+      internalID: -669846346388158251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_walk_front5
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 109
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d7c204c6388fef0800000000000000
+      internalID: -74164892895249110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_walk_front6
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 109
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3970c148cc019e7c0800000000000000
+      internalID: -4041680720012507245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_walk_back1
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 108
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a286127ec59ca9280800000000000000
+      internalID: -9035688301513578454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_walk_back2
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 108
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a4fbd3383b347b0800000000000000
+      internalID: -5241148165071091041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_walk_back3
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 108
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adceef1f829810f80800000000000000
+      internalID: -8142075842357433126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_walk_back4
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 108
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a88426f2d921b00800000000000000
+      internalID: 797872910835943972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_walk_back5
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 108
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64ee734b7a038130800000000000000
+      internalID: 3567706854337209454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_walk_back6
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 108
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224346c22f74e4070800000000000000
+      internalID: 8092484685883782178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_walk_side1
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 109
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2104574ec6b1ff0800000000000000
+      internalID: -64338041191263554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_walk_side2
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 109
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2480cade19a1430800000000000000
+      internalID: 3754473689346228915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_walk_side3
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 109
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a23cd78a2961fe80800000000000000
+      internalID: -8146614619547618653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_walk_side4
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 109
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fb35badf1bdfef0800000000000000
+      internalID: -72706315908825339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_idle_front1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a63ddbbb96e52b40800000000000000
+      internalID: 5414987683529045671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_idle_front2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 18
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806cc54a0fe6d2500800000000000000
+      internalID: 373076323970369032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_idle_front3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 18
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f99ecdb75621b50800000000000000
+      internalID: 6562419189693914928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_idle_front4
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 18
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e0086c09b07d2d0800000000000000
+      internalID: -3254119489318416779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_idle_back1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 18
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f3a11c0d48d5650800000000000000
+      internalID: 6223276292223680259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_idle_back2
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 18
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2c1379bb0ae4670800000000000000
+      internalID: 8524927872214876833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_idle_back3
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 18
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58628812107039170800000000000000
+      internalID: 8183892649301255813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_idle_back4
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 18
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29899a89b392bc5d0800000000000000
+      internalID: -3041291787417577326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_idle_side1
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 18
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfee7c3d9af3cbb0800000000000000
+      internalID: -4916810814926688312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_idle_side2
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 18
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf2c1abe386966c0800000000000000
+      internalID: -4149670963025530964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_idle_side3
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 18
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b80b3eaf6e586ff0800000000000000
+      internalID: -42680362702534477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fullbody_idle_side4
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 18
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266c6c6f62958e400800000000000000
+      internalID: 353630594632435298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

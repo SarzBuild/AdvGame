@@ -1,0 +1,1102 @@
+fileFormatVersion: 2
+guid: 6f6a17d6680334f459a11935a5151ca1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1784226676150957127
+    second: Legs_hit_front
+  - first:
+      213: -2015373688868423312
+    second: Legs_hit_back
+  - first:
+      213: -9000833341538919509
+    second: Legs_hit_side
+  - first:
+      213: -3561642048956801249
+    second: Legs_death_front1
+  - first:
+      213: 3871542033429535879
+    second: Legs_death_front2
+  - first:
+      213: -5751393086656690136
+    second: Legs_death_front3
+  - first:
+      213: -3117616243488319362
+    second: Legs_death_front4
+  - first:
+      213: -4436475132229990281
+    second: Legs_death_back1
+  - first:
+      213: -6242999344743470684
+    second: Legs_death_back2
+  - first:
+      213: 9123283094193800607
+    second: Legs_death_back3
+  - first:
+      213: -4845589883113567516
+    second: Legs_death_back4
+  - first:
+      213: -6631980383717616363
+    second: Legs_death_side1
+  - first:
+      213: -2716681341739501153
+    second: Legs_death_side2
+  - first:
+      213: 2973264291493354407
+    second: Legs_death_side3
+  - first:
+      213: 2078959392315792644
+    second: Legs_death_side4
+  - first:
+      213: 1833170945690920556
+    second: Legs_dash_front+back
+  - first:
+      213: 6574325013653160325
+    second: Legs_dash_side
+  - first:
+      213: 2655121407136956798
+    second: Legs_walk_front1
+  - first:
+      213: 438781287683338855
+    second: Legs_walk_front2
+  - first:
+      213: 3734172900496029312
+    second: Legs_walk_front3
+  - first:
+      213: 5468294311244182673
+    second: Legs_walk_front4
+  - first:
+      213: -6094477858709442164
+    second: Legs_walk_back1
+  - first:
+      213: 1101163218467999678
+    second: Legs_walk_back2
+  - first:
+      213: -1253095049857101629
+    second: Legs_walk_back3
+  - first:
+      213: -7884289908814662005
+    second: Legs_walk_back4
+  - first:
+      213: 6969948577570012928
+    second: Legs_walk_side1
+  - first:
+      213: 698538323269328088
+    second: Legs_walk_side2
+  - first:
+      213: -3602569526698348745
+    second: Legs_walk_side3
+  - first:
+      213: -2537366800064650965
+    second: Legs_walk_side4
+  - first:
+      213: 3007029769019594531
+    second: Legs_idle_front1
+  - first:
+      213: 2059790508613039087
+    second: Legs_idle_front2
+  - first:
+      213: -6414013478119875569
+    second: Legs_idle_front3
+  - first:
+      213: -6602580874095127835
+    second: Legs_idle_front4
+  - first:
+      213: 8461439146821847293
+    second: Legs_idle_back1
+  - first:
+      213: -7089615883463317529
+    second: Legs_idle_back2
+  - first:
+      213: 3223045321908005037
+    second: Legs_idle_back3
+  - first:
+      213: 3851524751038844011
+    second: Legs_idle_back4
+  - first:
+      213: 6136982743073324943
+    second: Legs_idle_side1
+  - first:
+      213: 8424158610422938024
+    second: Legs_idle_side2
+  - first:
+      213: 3491791018326314737
+    second: Legs_idle_side3
+  - first:
+      213: 615592595260220149
+    second: Legs_idle_side4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 90
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Legs_hit_front
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 494
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744f0ce65b8d2c810800000000000000
+      internalID: 1784226676150957127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_hit_back
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 494
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0793451de44f704e0800000000000000
+      internalID: -2015373688868423312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_hit_side
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 494
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab941ba3cd961380800000000000000
+      internalID: -9000833341538919509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_death_front1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 401
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1fd5d64d61829ec0800000000000000
+      internalID: -3561642048956801249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_death_front2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 401
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c9f8397fa7ab530800000000000000
+      internalID: 3871542033429535879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_death_front3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 401
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828c03ab572fe20b0800000000000000
+      internalID: -5751393086656690136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_death_front4
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 401
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7814ec5b800cb4d0800000000000000
+      internalID: -3117616243488319362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_death_back1
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 401
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778c3986f597e62c0800000000000000
+      internalID: -4436475132229990281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_death_back2
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 401
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9a19b3c296c59a0800000000000000
+      internalID: -6242999344743470684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_death_back3
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 401
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f958fbe03a96c9e70800000000000000
+      internalID: 9123283094193800607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_death_back4
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 401
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea0ac1aca101ccb0800000000000000
+      internalID: -4845589883113567516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_death_side1
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 401
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515172f8af876f3a0800000000000000
+      internalID: -6631980383717616363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_death_side2
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 401
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f997fa996b86c4ad0800000000000000
+      internalID: -2716681341739501153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_death_side3
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 401
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab90ddbe18234920800000000000000
+      internalID: 2973264291493354407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_death_side4
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 401
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40dd1717d82f9dc10800000000000000
+      internalID: 2078959392315792644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_dash_front+back
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 212
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c666976334bb07910800000000000000
+      internalID: 1833170945690920556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_dash_side
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 212
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58103c484c1bc3b50800000000000000
+      internalID: 6574325013653160325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_walk_front1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 107
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e710fe33ad2e8d420800000000000000
+      internalID: 2655121407136956798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_walk_front2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 107
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7623472a14dd61600800000000000000
+      internalID: 438781287683338855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_walk_front3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 107
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086b4ffe77272d330800000000000000
+      internalID: 3734172900496029312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_walk_front4
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 107
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194bffc24b843eb40800000000000000
+      internalID: 5468294311244182673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_walk_back1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 107
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81f32c6da01c6ba0800000000000000
+      internalID: -6094477858709442164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_walk_back2
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 107
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfc28cec1e184f00800000000000000
+      internalID: 1101163218467999678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_walk_back3
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 107
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0977bf0bc1c9ee0800000000000000
+      internalID: -1253095049857101629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_walk_back4
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 107
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86b7e6c910659290800000000000000
+      internalID: -7884289908814662005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_walk_side1
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 107
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fbccc8d4b3ab060800000000000000
+      internalID: 6969948577570012928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_walk_side2
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 107
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc177c67e4b1b900800000000000000
+      internalID: 698538323269328088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_walk_side3
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 107
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f6f7a4a1a110ec0800000000000000
+      internalID: -3602569526698348745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_walk_side4
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 107
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21e641c65679ccd0800000000000000
+      internalID: -2537366800064650965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_idle_front1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327107b94ad1bb920800000000000000
+      internalID: 3007029769019594531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_idle_front2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 17
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3f999ed88d59c10800000000000000
+      internalID: 2059790508613039087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_idle_front3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 17
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0cd81c79b8dcf6a0800000000000000
+      internalID: -6414013478119875569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_idle_front4
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 17
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e295ce4dabee54a0800000000000000
+      internalID: -6602580874095127835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_idle_back1
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 17
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df886eac2121d6570800000000000000
+      internalID: 8461439146821847293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_idle_back2
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 17
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7a3389aef9c9d90800000000000000
+      internalID: -7089615883463317529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_idle_back3
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 17
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8af43d4ae8abc20800000000000000
+      internalID: 3223045321908005037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_idle_back4
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 17
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c8b45da5d537530800000000000000
+      internalID: 3851524751038844011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_idle_side1
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 17
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f76992a41fa2550800000000000000
+      internalID: 6136982743073324943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_idle_side2
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 17
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9bec18f9f98e470800000000000000
+      internalID: 8424158610422938024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_idle_side3
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 17
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe4d3d4e65557030800000000000000
+      internalID: 3491791018326314737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Legs_idle_side4
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 17
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2a8de24360b8800800000000000000
+      internalID: 615592595260220149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
