@@ -5,7 +5,7 @@ using UnityEngine;
 public class Sc_PlayerControler : MonoBehaviour
 {
     Sc_SelectChildObject playerState;
-    public float speed = 5.0f;
+    public static float speed = 5.0f;
     public float dashDistance = 5.0f;
     private float slideSpeed;
 
