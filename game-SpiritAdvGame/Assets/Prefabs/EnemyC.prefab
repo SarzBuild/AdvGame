@@ -13,8 +13,6 @@ GameObject:
   - component: {fileID: 5461597542857952883}
   - component: {fileID: 7866405437327476033}
   - component: {fileID: 677047836}
-  - component: {fileID: 8903741931792143928}
-  - component: {fileID: 5535701941660980674}
   m_Layer: 0
   m_Name: EnemyC
   m_TagString: Untagged
@@ -75,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: a6aa4aefd10307742b1f1d37d9611885, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -148,39 +146,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   waypointList:
-  - {x: 24.03, y: 20.42, z: -23.523981}
-  - {x: 24.03, y: 20.42, z: -23.523981}
-  - {x: 35.1, y: 12.32, z: -23.523981}
-  - {x: 25.07, y: 12.74, z: -23.523981}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   moveSpeed: 0
-  pfFieldOfView: {fileID: 0}
---- !u!114 &8903741931792143928
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4894330667289706955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb1f782854393d44cb04aabea68af878, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _layerMask:
-    serializedVersion: 2
-    m_Bits: 0
---- !u!114 &5535701941660980674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4894330667289706955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb1f782854393d44cb04aabea68af878, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _layerMask:
-    serializedVersion: 2
-    m_Bits: 0
+  pfFieldOfView: {fileID: 8778774296320106599, guid: 9673b0f257ef25d4a89656f8f2a0a060, type: 3}

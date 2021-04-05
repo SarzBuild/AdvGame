@@ -22,6 +22,7 @@ public class Sc_EnemyB : MonoBehaviour
 
     void Start()
     {
+        target = GameObject.FindWithTag("Player").transform;
         rb2d = GetComponent<Rigidbody2D>();
         InitValues();
     }

@@ -10,23 +10,27 @@ public class Sc_FieldOfView : MonoBehaviour
 {
     [SerializeField] private LayerMask _layerMask;
     private Mesh mesh;
+    //private MeshRenderer _meshRenderer;
     private Vector3 origin;
     private float startingAngle;
     private float fov;
+    private float viewDistance;
     
     private void Start()
     {
         mesh = new Mesh();
         GetComponent<MeshFilter>().mesh = mesh;
         origin = Vector3.zero;
+        //_meshRenderer = gameObject.GetComponent<MeshRenderer>();
         fov = 90f;
+        mesh.bounds = new Bounds(new Vector3(0,0,0), new Vector3(50,50,50));
     }
     private void LateUpdate()
     {
         int rayCount = 50;
         float angle = startingAngle;
         float angleIncrease = fov / rayCount;
-        float viewDistance = 50f;
+        float viewDistance = 10f;
         
         Vector3[] vertices = new Vector3[rayCount + 1 + 1];
         Vector2[] uv = new Vector2[vertices.Length];
@@ -91,6 +95,16 @@ public class Sc_FieldOfView : MonoBehaviour
 
     public void SetAimDirection(Vector3 aimDirection)
     {
-        startingAngle = GetAngleFromVectorFloat(aimDirection) - fov / 2f;
+        startingAngle = GetAngleFromVectorFloat(aimDirection) + fov / 2f;
+    }
+
+    public void SetFoV(float fov)
+    {
+        this.fov = fov;
+    }
+
+    public void SetViewDistance(float viewDistance)
+    {
+        this.viewDistance = viewDistance;
     }
 }
