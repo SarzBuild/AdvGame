@@ -126,4 +126,12 @@ public class Sc_EnemyA : MonoBehaviour
     {
         spiritColliding = Sc_WallCollision.spiritColliding;
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.tag == "Player" && hasLegs || collision.collider.tag == "Player" && isFullBody)
+        {
+            //attack animator
+            Debug.Log("Ouch");
+        }
+    }
 }

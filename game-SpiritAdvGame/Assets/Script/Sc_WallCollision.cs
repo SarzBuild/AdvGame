@@ -11,14 +11,12 @@ public class Sc_WallCollision : MonoBehaviour
     {
         if (collider.gameObject.tag == "Player")
         {
-            Debug.Log("oi");
             spiritColliding = true;
         }
     }
 
     void OnCollisionExit2D(Collision2D collider)
     {
-        Debug.Log("xau");
         spiritColliding = false;
     }
 }
