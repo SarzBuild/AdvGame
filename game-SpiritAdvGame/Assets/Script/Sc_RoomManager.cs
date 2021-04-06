@@ -11,12 +11,12 @@ public class Sc_RoomManager : MonoBehaviour
 
     void Start()
     {
-        virtualCamera = gameObject.transform.parent.GetChild(0).gameObject;
+        virtualCamera = this.gameObject.transform.GetChild(0).gameObject;
         player = GameObject.FindWithTag("Player");
-        var vcam = gameObject.transform.parent.GetComponentInChildren<CinemachineVirtualCamera>();
+        var vcam = this.gameObject.GetComponentInChildren<CinemachineVirtualCamera>();
         vcam.Follow = player.transform;
         vcam.LookAt = player.transform;
-        virtualCamera.SetActive(false);
+        this.gameObject.transform.GetChild(0).gameObject.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
