@@ -11,6 +11,7 @@ public class Sc_PlayerControler : MonoBehaviour
     SpriteRenderer spriteLegs;
     SpriteRenderer spriteFull;
 
+    SpriteRenderer sr;
     public float dashDistance = 5.0f;
     private float slideSpeed;
     public float moveX = 0f;
@@ -26,6 +27,7 @@ public class Sc_PlayerControler : MonoBehaviour
     bool isIdle;
     bool isWalking;
     public bool isSliding;
+    public bool gotHit;
     public Vector3 lastMoveDirection;
     // Start is called before the first frame update
     void Start()
@@ -36,6 +38,7 @@ public class Sc_PlayerControler : MonoBehaviour
         spriteGhost = GetComponent<SpriteRenderer>();
         spriteLegs = transform.GetChild(0).GetComponent<SpriteRenderer>();
         spriteFull = transform.GetChild(1).GetComponent<SpriteRenderer>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -84,7 +87,16 @@ public class Sc_PlayerControler : MonoBehaviour
             spriteFull.flipX = true;
             moveX = -1f;
         }
-        isIdle = moveX == 0 && moveY == 0;        
+        isIdle = moveX == 0 && moveY == 0;
+        if (moveY < 0)
+        {
+            
+            sr.flipX = true;
+        }
+        else
+        {
+            sr.flipX = false;
+        }
         if (isIdle)
         {
             //Play idle animation
@@ -177,10 +189,21 @@ public class Sc_PlayerControler : MonoBehaviour
         //Vector3 attackPos = transform.position + lastMoveDirection * 1f;
         //Instantiate(hitbox, attackPos, transform.rotation);
         transform.Find("Hitbox").gameObject.SetActive(true);
-        transform.Find("Hitbox").gameObject.transform.position += lastMoveDirection * 0.8f;
+        transform.Find("Hitbox").gameObject.transform.position += lastMoveDirection * 1.5f;
         yield return new WaitForSeconds(0.1f);
         transform.Find("Hitbox").gameObject.transform.position = transform.position;
         transform.Find("Hitbox").gameObject.SetActive(false);
         isAttacking = false;
+    }
+    public void GotHit()
+    {
+        Debug.Log("Ouch2");
+        gotHit = true;
+        //StartCoroutine(Hit());
+    }
+    IEnumerator Hit()
+    {
+        yield return new WaitForSeconds(0.1f);
+        gotHit = false;
     }
 }

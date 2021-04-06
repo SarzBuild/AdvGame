@@ -160,4 +160,11 @@ public class Sc_EnemyC : MonoBehaviour
     {
         
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Hitbox")
+        {
+            Destroy(gameObject);
+        }
+    }
 }

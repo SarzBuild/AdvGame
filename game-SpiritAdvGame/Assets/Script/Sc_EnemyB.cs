@@ -134,4 +134,11 @@ public class Sc_EnemyB : MonoBehaviour
         Vector2 dir = -(transform.position - target.position);
         rb.AddForce(dir * laserForce, ForceMode2D.Impulse);
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Hitbox")
+        {
+            Destroy(gameObject);
+        }
+    }
 }
