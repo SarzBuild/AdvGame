@@ -7,9 +7,9 @@ public class Sc_PlayerControler : MonoBehaviour
     Sc_SelectChildObject playerState;
     public static float speed = 3.5f;
     Animator ghostAnimator;
-    SpriteRenderer spriteGhost;
-    SpriteRenderer spriteLegs;
-    SpriteRenderer spriteFull;
+    //SpriteRenderer spriteGhost;
+    //SpriteRenderer spriteLegs;
+    //SpriteRenderer spriteFull;
 
     SpriteRenderer sr;
     public float dashDistance = 5.0f;
@@ -28,6 +28,7 @@ public class Sc_PlayerControler : MonoBehaviour
     bool isWalking;
     public bool isSliding;
     public bool gotHit;
+    public bool isDead;
     public Vector3 lastMoveDirection;
     // Start is called before the first frame update
     void Start()
@@ -35,9 +36,9 @@ public class Sc_PlayerControler : MonoBehaviour
         isIdle = true;        
         playerState = GetComponent<Sc_SelectChildObject>();        
         ghostAnimator = GetComponent<Animator>();
-        spriteGhost = GetComponent<SpriteRenderer>();
-        spriteLegs = transform.GetChild(0).GetComponent<SpriteRenderer>();
-        spriteFull = transform.GetChild(1).GetComponent<SpriteRenderer>();
+        //spriteGhost = GetComponent<SpriteRenderer>();
+        //spriteLegs = transform.GetChild(0).GetComponent<SpriteRenderer>();
+        //spriteFull = transform.GetChild(1).GetComponent<SpriteRenderer>();
         sr = GetComponent<SpriteRenderer>();
     }
 
@@ -75,16 +76,16 @@ public class Sc_PlayerControler : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.D))
         {
-            spriteGhost.flipX = false;
-            spriteLegs.flipX = false;
-            spriteFull.flipX = false;
+            //spriteGhost.flipX = false;
+            //spriteLegs.flipX = false;
+            //spriteFull.flipX = false;
             moveX = 1f;
         }
         if (Input.GetKey(KeyCode.A))
         {
-            spriteGhost.flipX = true;
-            spriteLegs.flipX = true;
-            spriteFull.flipX = true;
+            //spriteGhost.flipX = true;
+            //spriteLegs.flipX = true;
+            //spriteFull.flipX = true;
             moveX = -1f;
         }
         isIdle = moveX == 0 && moveY == 0;
@@ -197,13 +198,13 @@ public class Sc_PlayerControler : MonoBehaviour
     }
     public void GotHit()
     {
-        Debug.Log("Ouch2");
         gotHit = true;
-        //StartCoroutine(Hit());
+        StartCoroutine(Hit());
     }
     IEnumerator Hit()
     {
         yield return new WaitForSeconds(0.1f);
         gotHit = false;
+        isDead = true;
     }
 }
