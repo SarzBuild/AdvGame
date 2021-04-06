@@ -8,6 +8,7 @@ public class Sc_EnemyA : MonoBehaviour
 {
     public Transform target;
     private Rigidbody2D rb2d;
+    private Sc_PlayerControler playerControler;
     private Vector2 movement;
     public float moveSpeed;
     public float fleeingMoveSpeed;
@@ -36,6 +37,7 @@ public class Sc_EnemyA : MonoBehaviour
     void Update()
     {
         rb2d.velocity = Vector2.zero;
+        rb2d.constraints = RigidbodyConstraints2D.FreezeRotation;
         CharacterState();
         SpiritCollision();
         AggroRangeDistance();
@@ -132,6 +134,15 @@ public class Sc_EnemyA : MonoBehaviour
         {
             //attack animator
             Debug.Log("Ouch");
+            playerControler = FindObjectOfType<Sc_PlayerControler>();
+            playerControler.GotHit();
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Hitbox")
+        {
+            Destroy(gameObject);
         }
     }
 }

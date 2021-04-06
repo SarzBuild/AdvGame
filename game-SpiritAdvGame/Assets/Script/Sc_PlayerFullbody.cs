@@ -6,6 +6,7 @@ public class Sc_PlayerFullbody : MonoBehaviour
 {
     Animator fullbodyAnimator;
     Sc_PlayerControler Sc_PlayerControler;
+    SpriteRenderer sr;
 
     bool isIdle;
     bool isWalking;
@@ -16,6 +17,7 @@ public class Sc_PlayerFullbody : MonoBehaviour
         isWalking = false;
         fullbodyAnimator = GetComponent<Animator>();
         Sc_PlayerControler = FindObjectOfType<Sc_PlayerControler>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -26,6 +28,15 @@ public class Sc_PlayerFullbody : MonoBehaviour
     public void ManageAnimator(float x, float y, Vector3 lastMoveDir)
     {
         isIdle = x == 0 && y == 0;
+        if (x < 0 || lastMoveDir.x < 0)
+        {
+
+            sr.flipX = true;
+        }
+        else
+        {
+            sr.flipX = false;
+        }
         if (isIdle)
         {
             //Play idle animation
@@ -61,6 +72,17 @@ public class Sc_PlayerFullbody : MonoBehaviour
         else
         {
             fullbodyAnimator.SetBool("isDashing", false);
+        }
+        if (Sc_PlayerControler.isAttacking)
+        {
+            Debug.Log("Attack!");
+            fullbodyAnimator.SetBool("isAttacking", true);
+            fullbodyAnimator.SetFloat("X", lastMoveDir.x);
+            fullbodyAnimator.SetFloat("Y", lastMoveDir.y);
+        }
+        else
+        {
+            fullbodyAnimator.SetBool("isAttacking", false);
         }
     }
     public void Test()

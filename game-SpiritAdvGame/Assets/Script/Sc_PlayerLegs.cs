@@ -6,6 +6,7 @@ public class Sc_PlayerLegs : MonoBehaviour
 {
     Animator legsAnimator;
     Sc_PlayerControler Sc_PlayerControler;
+    SpriteRenderer sr;
 
     bool isIdle;
     bool isWalking;
@@ -16,6 +17,7 @@ public class Sc_PlayerLegs : MonoBehaviour
         isWalking = false;
         legsAnimator = GetComponent<Animator>();
         Sc_PlayerControler = FindObjectOfType<Sc_PlayerControler>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -26,6 +28,15 @@ public class Sc_PlayerLegs : MonoBehaviour
     public void ManageAnimator(float x, float y, Vector3 lastMoveDir)
     {
         isIdle = x == 0 && y == 0;
+        if (x < 0 || lastMoveDir.x < 0)
+        {
+
+            sr.flipX = true;
+        }
+        else
+        {
+            sr.flipX = false;
+        }
         if (isIdle)
         {
             //Play idle animation
@@ -61,6 +72,15 @@ public class Sc_PlayerLegs : MonoBehaviour
         else
         {
             legsAnimator.SetBool("isDashing", false);
+        }
+        if (Sc_PlayerControler.gotHit)
+        {
+            legsAnimator.SetBool("gotHit", true);
+            //legsAnimator.SetTrigger("gotHit");
+            Sc_PlayerControler.gotHit = false;
+            legsAnimator.SetBool("isDying", true);
+            //legsAnimator.ResetTrigger("gotHit");
+
         }
     }
     public void Test()

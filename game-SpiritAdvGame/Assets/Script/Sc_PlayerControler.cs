@@ -6,8 +6,8 @@ public class Sc_PlayerControler : MonoBehaviour
 {
     Sc_SelectChildObject playerState;
     public static float speed = 2.0f;
-    Animator ghostAnimator;    
-
+    Animator ghostAnimator;
+    SpriteRenderer sr;
     public float dashDistance = 5.0f;
     private float slideSpeed;
     public float moveX = 0f;
@@ -19,10 +19,11 @@ public class Sc_PlayerControler : MonoBehaviour
         Sliding
     }
 
-    bool isAttacking = false;
+    public bool isAttacking = false;
     bool isIdle;
     bool isWalking;
     public bool isSliding;
+    public bool gotHit;
     public Vector3 lastMoveDirection;
     // Start is called before the first frame update
     void Start()
@@ -30,6 +31,7 @@ public class Sc_PlayerControler : MonoBehaviour
         isIdle = true;        
         playerState = GetComponent<Sc_SelectChildObject>();        
         ghostAnimator = GetComponent<Animator>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -71,7 +73,16 @@ public class Sc_PlayerControler : MonoBehaviour
         {
             moveX = -1f;
         }
-        isIdle = moveX == 0 && moveY == 0;        
+        isIdle = moveX == 0 && moveY == 0;
+        if (moveY < 0)
+        {
+            
+            sr.flipX = true;
+        }
+        else
+        {
+            sr.flipX = false;
+        }
         if (isIdle)
         {
             //Play idle animation
@@ -171,10 +182,21 @@ public class Sc_PlayerControler : MonoBehaviour
         //Vector3 attackPos = transform.position + lastMoveDirection * 1f;
         //Instantiate(hitbox, attackPos, transform.rotation);
         transform.Find("Hitbox").gameObject.SetActive(true);
-        transform.Find("Hitbox").gameObject.transform.position += lastMoveDirection * 0.8f;
+        transform.Find("Hitbox").gameObject.transform.position += lastMoveDirection * 1.5f;
         yield return new WaitForSeconds(0.1f);
         transform.Find("Hitbox").gameObject.transform.position = transform.position;
         transform.Find("Hitbox").gameObject.SetActive(false);
         isAttacking = false;
+    }
+    public void GotHit()
+    {
+        Debug.Log("Ouch2");
+        gotHit = true;
+        //StartCoroutine(Hit());
+    }
+    IEnumerator Hit()
+    {
+        yield return new WaitForSeconds(0.1f);
+        gotHit = false;
     }
 }
