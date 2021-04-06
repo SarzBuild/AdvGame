@@ -146,13 +146,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  laserPrefab: {fileID: 0}
-  firePoint: {fileID: 0}
+  laserPrefab: {fileID: 1493114647469134864, guid: 4eeb00adcf16ad546b2a037408d948d2, type: 3}
+  firePoint: {fileID: 8464037561711872133}
   moveSpeed: 0
   fleeingMoveSpeed: 0
   aggroRange: 0
   aggroRangeAttacks: 0
-  laserForce: 20
+  laserForce: 10
 --- !u!1 &8358093546059245293
 GameObject:
   m_ObjectHideFlags: 0
@@ -162,7 +162,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8464037561711872133}
-  - component: {fileID: 3141838138856314330}
   m_Layer: 0
   m_Name: FirePoint
   m_TagString: Untagged
@@ -184,24 +183,3 @@ Transform:
   m_Father: {fileID: 6317457840075794925}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &3141838138856314330
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8358093546059245293}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
