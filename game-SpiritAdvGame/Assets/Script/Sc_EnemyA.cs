@@ -8,7 +8,9 @@ public class Sc_EnemyA : MonoBehaviour
 {
     public Transform target;
     private Rigidbody2D rb2d;
+    private Animator myAnim;
     private Sc_PlayerControler playerControler;
+    private Transform childTransform;
     private Vector2 movement;
     public float moveSpeed;
     public float fleeingMoveSpeed;
@@ -24,6 +26,8 @@ public class Sc_EnemyA : MonoBehaviour
     void Start()
     {
         target = GameObject.FindWithTag("Player").transform;
+        childTransform = GetComponentInChildren<Transform>();
+        myAnim = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
         InitValues();
     }
@@ -39,6 +43,9 @@ public class Sc_EnemyA : MonoBehaviour
         transform.rotation = Quaternion.identity;
         rb2d.velocity = Vector2.zero;
         rb2d.constraints = RigidbodyConstraints2D.FreezeRotation;
+        Quaternion childTransformVector = childTransform.rotation;
+        Debug.Log(childTransformVector.z);
+        childTransformVector.z = -transform.rotation.z;
         CharacterState();
         SpiritCollision();
         AggroRangeDistance();

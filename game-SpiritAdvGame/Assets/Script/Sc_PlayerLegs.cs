@@ -76,12 +76,19 @@ public class Sc_PlayerLegs : MonoBehaviour
         if (Sc_PlayerControler.gotHit)
         {
             legsAnimator.SetBool("gotHit", true);
-            //legsAnimator.SetTrigger("gotHit");
-            Sc_PlayerControler.gotHit = false;
-            legsAnimator.SetBool("isDying", true);
-            //legsAnimator.ResetTrigger("gotHit");
-
         }
+        else
+        {
+            legsAnimator.SetBool("gotHit", false);
+        }
+        /*if (Sc_PlayerControler.isDead)
+        {
+            legsAnimator.SetBool("isDying", true);
+        }
+        else
+        {
+            legsAnimator.SetBool("isDying", true);
+        }*/
     }
     public void Test()
     {
