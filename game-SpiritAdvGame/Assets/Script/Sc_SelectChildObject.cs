@@ -5,6 +5,7 @@ using UnityEngine;
 public class Sc_SelectChildObject : MonoBehaviour
 {
     private SpriteRenderer mySpriteRenderer;
+    private Sc_PlayerControler Sc_PlayerControler;
     public Sc_PlayerState playerState;
     public bool isSpirit = true;
     public bool hasLegs = false;
@@ -14,6 +15,7 @@ public class Sc_SelectChildObject : MonoBehaviour
     {
         mySpriteRenderer = GetComponent<SpriteRenderer>();
         playerState = FindObjectOfType<Sc_PlayerState>();
+        Sc_PlayerControler = FindObjectOfType<Sc_PlayerControler>();
         isSpirit = true;
     }
 
@@ -29,7 +31,6 @@ public class Sc_SelectChildObject : MonoBehaviour
             Destroy(collision.gameObject);
             transform.Find("PlayerB").gameObject.SetActive(false);
             transform.Find("PlayerA").gameObject.SetActive(true);
-            
         }
         if (collision.name == "Body" && transform.Find("PlayerA").gameObject.activeSelf)
         {

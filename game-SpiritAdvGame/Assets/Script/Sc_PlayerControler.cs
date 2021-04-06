@@ -6,9 +6,12 @@ public class Sc_PlayerControler : MonoBehaviour
 {
     Sc_SelectChildObject playerState;
     public static float speed = 5.0f;
+    Animator ghostAnimator;    
+
     public float dashDistance = 5.0f;
     private float slideSpeed;
-
+    public float moveX = 0f;
+    public float moveY = 0f;
     private State state;
     private enum State
     {
@@ -18,12 +21,15 @@ public class Sc_PlayerControler : MonoBehaviour
 
     bool isAttacking = false;
     bool isIdle;
-    private Vector3 lastMoveDirection;
+    bool isWalking;
+    public bool isSliding;
+    public Vector3 lastMoveDirection;
     // Start is called before the first frame update
     void Start()
     {
-        isIdle = true;
-        playerState = GetComponent<Sc_SelectChildObject>();
+        isIdle = true;        
+        playerState = GetComponent<Sc_SelectChildObject>();        
+        ghostAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -47,8 +53,8 @@ public class Sc_PlayerControler : MonoBehaviour
     }
     private void HandleMovement()
     {
-        float moveX = 0f;
-        float moveY = 0f;
+        moveX = 0f;
+        moveY = 0f;
         if (Input.GetKey(KeyCode.W))
         {
             moveY = +1f;
@@ -65,27 +71,37 @@ public class Sc_PlayerControler : MonoBehaviour
         {
             moveX = -1f;
         }
-        isIdle = moveX == 0 && moveY == 0;
+        isIdle = moveX == 0 && moveY == 0;        
         if (isIdle)
         {
             //Play idle animation
+            ghostAnimator.SetBool("isWalking", false);
+            ghostAnimator.SetFloat("X", lastMoveDirection.x);
+            ghostAnimator.SetFloat("Y", lastMoveDirection.y);        
         }
         else
         {
             Vector3 moveDir = new Vector3(moveX, moveY).normalized;
+            isWalking = true;
 
             if (TryMove(moveDir, speed * Time.deltaTime))
             {
                 //Walk Animation
+                ghostAnimator.SetBool("isWalking", true);
+                ghostAnimator.SetFloat("X", moveX);
+                ghostAnimator.SetFloat("Y", moveY);                
             }
             else
             {
                 //idle animation
+                ghostAnimator.SetBool("isWalking", false);
+                ghostAnimator.SetFloat("X", lastMoveDirection.x);
+                ghostAnimator.SetFloat("Y", lastMoveDirection.y);
             }
 
         }
     }
-    private bool TryMove(Vector3 baseMoveDir, float dist)
+    public bool TryMove(Vector3 baseMoveDir, float dist)
     {
         Vector3 moveDir = baseMoveDir;
         bool canMove = CanMove(moveDir, dist);
@@ -133,10 +149,12 @@ public class Sc_PlayerControler : MonoBehaviour
     private void HandleSliding()
     {
         TryMove(lastMoveDirection, slideSpeed * Time.deltaTime);
+        isSliding = true;
         slideSpeed -= slideSpeed * 10f * Time.deltaTime;
         if (slideSpeed < 5f)
         {
             state = State.Normal;
+            isSliding = false;
         }
 
     }
