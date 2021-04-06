@@ -36,6 +36,7 @@ public class Sc_EnemyA : MonoBehaviour
     }
     void Update()
     {
+        transform.rotation = Quaternion.identity;
         rb2d.velocity = Vector2.zero;
         rb2d.constraints = RigidbodyConstraints2D.FreezeRotation;
         CharacterState();
@@ -80,7 +81,7 @@ public class Sc_EnemyA : MonoBehaviour
     {
         if (playerIsInAggroRange)
         {
-            FleeFromPlayer();
+            MoveAndLookTowardsPlayer();
         }
     }
     void EnemyBehaviourWhenCharacterHasLegs()
