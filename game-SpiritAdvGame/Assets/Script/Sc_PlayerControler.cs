@@ -22,7 +22,7 @@ public class Sc_PlayerControler : MonoBehaviour
         Sliding
     }
 
-    bool isAttacking = false;
+    public bool isAttacking = false;
     bool isIdle;
     bool isWalking;
     public bool isSliding;

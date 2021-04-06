@@ -83,13 +83,15 @@ public class Sc_EnemyC : MonoBehaviour
 
     void EnemyBehaviourWhenCharacterHasBody()
     {
-        if (_fieldOfView.gameObject.activeInHierarchy)
+        if (!_fieldOfView.gameObject.activeInHierarchy)
         {
-            _fieldOfView.gameObject.SetActive(false);
+            _fieldOfView.gameObject.SetActive(true);
         }
         else
         {
-            
+            _fieldOfView.SetOrigin(gameObject.transform.position);
+            _fieldOfView.SetAimDirection(GetAimDir());
+            Patrol();
         }
     }
 

@@ -62,6 +62,13 @@ public class Sc_PlayerFullbody : MonoBehaviour
         {
             fullbodyAnimator.SetBool("isDashing", false);
         }
+        if (Sc_PlayerControler.isAttacking)
+        {
+            fullbodyAnimator.SetBool("isAttacking", true);
+        }
+        else {
+            fullbodyAnimator.SetBool("isAttacking", false);
+        }
     }
     public void Test()
     {
