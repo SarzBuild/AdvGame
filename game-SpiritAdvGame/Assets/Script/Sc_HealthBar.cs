@@ -17,7 +17,7 @@ public class Sc_HealthBar : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             currentHP -= 5;
         }
