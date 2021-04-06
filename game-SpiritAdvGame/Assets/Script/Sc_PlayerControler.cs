@@ -6,7 +6,10 @@ public class Sc_PlayerControler : MonoBehaviour
 {
     Sc_SelectChildObject playerState;
     public static float speed = 3.5f;
-    Animator ghostAnimator;    
+    Animator ghostAnimator;
+    SpriteRenderer spriteGhost;
+    SpriteRenderer spriteLegs;
+    SpriteRenderer spriteFull;
 
     public float dashDistance = 5.0f;
     private float slideSpeed;
@@ -30,6 +33,9 @@ public class Sc_PlayerControler : MonoBehaviour
         isIdle = true;        
         playerState = GetComponent<Sc_SelectChildObject>();        
         ghostAnimator = GetComponent<Animator>();
+        spriteGhost = GetComponent<SpriteRenderer>();
+        spriteLegs = transform.GetChild(0).GetComponent<SpriteRenderer>();
+        spriteFull = transform.GetChild(1).GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -39,7 +45,6 @@ public class Sc_PlayerControler : MonoBehaviour
         {
             case State.Normal:
                 HandleMovement();
-                HandleDash();
                 HandleSlide();
                 Attack();
                 break;
@@ -51,10 +56,12 @@ public class Sc_PlayerControler : MonoBehaviour
         }
 
     }
+
     private void HandleMovement()
     {
         moveX = 0f;
         moveY = 0f;
+
         if (Input.GetKey(KeyCode.W))
         {
             moveY = +1f;
@@ -65,10 +72,16 @@ public class Sc_PlayerControler : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.D))
         {
+            spriteGhost.flipX = false;
+            spriteLegs.flipX = false;
+            spriteFull.flipX = false;
             moveX = 1f;
         }
         if (Input.GetKey(KeyCode.A))
         {
+            spriteGhost.flipX = true;
+            spriteLegs.flipX = true;
+            spriteFull.flipX = true;
             moveX = -1f;
         }
         isIdle = moveX == 0 && moveY == 0;        
@@ -130,14 +143,7 @@ public class Sc_PlayerControler : MonoBehaviour
     {
         return Physics2D.Raycast(transform.position, dir, dist).collider == null;
     }
-    private void HandleDash()
-    {
-        if (Input.GetKeyDown(KeyCode.LeftShift) && playerState.hasLegs)
-        {
-            TryMove(lastMoveDirection, dashDistance);
-            //transform.position += lastMoveDirection * dashDistance;
-        }
-    }
+
     private void HandleSlide()
     {
         if (Input.GetKeyDown(KeyCode.LeftControl) && playerState.hasLegs)
