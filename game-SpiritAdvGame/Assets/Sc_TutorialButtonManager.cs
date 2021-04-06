@@ -10,6 +10,7 @@ public class Sc_TutorialButtonManager : MonoBehaviour
     {
         if (other.tag == "Enemy")
         {
+            Debug.Log(1);
             Destroy(wall);
         }
     }

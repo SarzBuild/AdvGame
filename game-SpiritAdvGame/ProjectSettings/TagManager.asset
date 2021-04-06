@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Hitbox
   - UsedByRenderingTileMap
+  - TruePlayer
+  - Enemy
   layers:
   - Default
   - TransparentFX
