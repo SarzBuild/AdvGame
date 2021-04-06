@@ -1,103 +1,115 @@
 fileFormatVersion: 2
-guid: 57587c5ef9904d14c989bac651069898
+guid: 670f918faf37e70408cf38f7b28acc56
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3230372764028864613
-    second: enemyB_front_idle
+      213: 4403879543691003618
+    second: enemyC_front_idle
   - first:
-      213: -5931407259929519925
-    second: enemyB_front_walk1
+      213: -1644260412846912369
+    second: enemyC_front_walk1
   - first:
-      213: -8154964216042833125
-    second: enemyB_front_walk2
+      213: 7612214723950074234
+    second: enemyC_front_walk2
   - first:
-      213: 6238659355412593286
-    second: enemyB_front_attack1
+      213: -3807928203121143350
+    second: enemyC_front_attack1
   - first:
-      213: -2883073725978827398
-    second: enemyB_front_attack2
+      213: -3433386956670063669
+    second: enemyC_front_attack2
   - first:
-      213: 6607867448349238498
-    second: enemyB_front_attack3
+      213: -8946432955291504984
+    second: enemyC_front_attack3
   - first:
-      213: -164940826235032925
-    second: enemyB_front_attack4
+      213: 6267778547844261421
+    second: enemyC_front_attack4
   - first:
-      213: 3261647392647613253
-    second: enemyB_front_hit
+      213: 6427179046928032344
+    second: enemyC_front_hit
   - first:
-      213: 6776739756539553275
-    second: enemyB_death1
+      213: 633469415129496013
+    second: enemyC_death1
   - first:
-      213: -4000231317612960751
-    second: enemyB_death2
+      213: -4317427945856778231
+    second: enemyC_death2
   - first:
-      213: 4477665445391111152
-    second: enemyB_death3
+      213: -1220100884442081570
+    second: enemyC_death3
   - first:
-      213: -2707116107207288305
-    second: enemyB_death4
+      213: 1833460020784229967
+    second: enemyC_death4
   - first:
-      213: 7054689165365618248
-    second: enemyB_left_idle
+      213: 452665839571932994
+    second: enemyC_right_idle
   - first:
-      213: -1903613780157132110
-    second: enemyB_left_walk1
+      213: 2366126849526105962
+    second: enemyC_right_walk1
   - first:
-      213: 382361640335504487
-    second: enemyB_left_walk2
+      213: 1544531185330411636
+    second: enemyC_right_walk2
   - first:
-      213: 7429041056933989602
-    second: enemyB_left_attack1
+      213: 2940252545156387519
+    second: enemyC_right_attack1
   - first:
-      213: -2590267910156666155
-    second: enemyB_left_attack2
+      213: -6400818785930827495
+    second: enemyC_right_attack2
   - first:
-      213: 909111234887380739
-    second: enemyB_left_attack3
+      213: 1232619038727609862
+    second: enemyC_right_attack3
   - first:
-      213: 3514114628793362013
-    second: enemyB_left_attack4
+      213: -4731648225510862458
+    second: enemyC_right_attack4
   - first:
-      213: 6854912167414477825
-    second: enemyB_left_hit
+      213: -4835977261269944485
+    second: enemyC_right_hit
   - first:
-      213: 7630268072804806401
-    second: enemyB_right_idle
+      213: 6081418182527734644
+    second: enemyC_left_idle
   - first:
-      213: 529672157200052237
-    second: enemyB_right_walk1
+      213: -6832663918069438834
+    second: enemyC_left_walk1
   - first:
-      213: -28701339666021386
-    second: enemyB_right_walk2
+      213: 397431170234066687
+    second: enemyC_left_walk2
   - first:
-      213: 1710369292250592297
-    second: enemyB_right_attack1
+      213: 930254692379473606
+    second: enemyC_left_attack1
   - first:
-      213: 4669945173584705223
-    second: enemyB_right_attack2
+      213: 7946633436514566326
+    second: enemyC_left_attack2
   - first:
-      213: -2562522357497439915
-    second: enemyB_right_attack3
+      213: -1226128989525790265
+    second: enemyC_left_attack3
   - first:
-      213: 5359824970147621528
-    second: enemyB_right_attack4
+      213: 8605254779932756817
+    second: enemyC_left_attack4
   - first:
-      213: 3485149940012252435
-    second: enemyB_right_hit
+      213: 8671767777275024734
+    second: enemyC_left_hit
   - first:
-      213: 6441391170649970765
-    second: enemyB_back_idle
+      213: -8428994519684046434
+    second: enemyC_back_idle
   - first:
-      213: 5607943764104361296
-    second: enemyB_back_walk1
+      213: 5362679117769160983
+    second: enemyC_back_walk1
   - first:
-      213: 5053081093426816538
-    second: enemyB_back_walk2
+      213: 7272322205816776116
+    second: enemyC_back_walk2
   - first:
-      213: -8107655891707171872
-    second: enemyB_back_hit
+      213: 522562076855876095
+    second: enemyC_back_attack1
+  - first:
+      213: -802965261496647606
+    second: enemyC_back_attack2
+  - first:
+      213: -3251490756091867072
+    second: enemyC_back_attack3
+  - first:
+      213: -5571520605265030505
+    second: enemyC_back_attack4
+  - first:
+      213: 8077242387157873452
+    second: enemyC_back_hit
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -185,7 +197,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: enemyB_front_idle
+      name: enemyC_front_idle
       rect:
         serializedVersion: 2
         x: 32
@@ -199,14 +211,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9776fb16196b23d0800000000000000
-      internalID: -3230372764028864613
+      spriteID: 2e6cf4bbc19bd1d30800000000000000
+      internalID: 4403879543691003618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_front_walk1
+      name: enemyC_front_walk1
       rect:
         serializedVersion: 2
         x: 184
@@ -220,14 +232,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc85ab5e5886fada0800000000000000
-      internalID: -5931407259929519925
+      spriteID: f8cc50ebdd96e29e0800000000000000
+      internalID: -1644260412846912369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_front_walk2
+      name: enemyC_front_walk2
       rect:
         serializedVersion: 2
         x: 336
@@ -241,14 +253,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1bbeba904fb3de80800000000000000
-      internalID: -8154964216042833125
+      spriteID: a79da0fc5f404a960800000000000000
+      internalID: 7612214723950074234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_front_attack1
+      name: enemyC_front_attack1
       rect:
         serializedVersion: 2
         x: 488
@@ -262,14 +274,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68af80241ab249650800000000000000
-      internalID: 6238659355412593286
+      spriteID: ac1d5ca7975872bc0800000000000000
+      internalID: -3807928203121143350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_front_attack2
+      name: enemyC_front_attack2
       rect:
         serializedVersion: 2
         x: 640
@@ -283,14 +295,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7525cda8b34df7d0800000000000000
-      internalID: -2883073725978827398
+      spriteID: bcba837f0c82a50d0800000000000000
+      internalID: -3433386956670063669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_front_attack3
+      name: enemyC_front_attack3
       rect:
         serializedVersion: 2
         x: 792
@@ -304,14 +316,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e429bd2f6cd3bb50800000000000000
-      internalID: 6607867448349238498
+      spriteID: 8ae600d90a2e7d380800000000000000
+      internalID: -8946432955291504984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_front_attack4
+      name: enemyC_front_attack4
       rect:
         serializedVersion: 2
         x: 944
@@ -325,14 +337,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3aa2d43413306bdf0800000000000000
-      internalID: -164940826235032925
+      spriteID: d262213916f9bf650800000000000000
+      internalID: 6267778547844261421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_front_hit
+      name: enemyC_front_hit
       rect:
         serializedVersion: 2
         x: 1096
@@ -346,14 +358,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54b075dc503b34d20800000000000000
-      internalID: 3261647392647613253
+      spriteID: 852aaff5a4de13950800000000000000
+      internalID: 6427179046928032344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_death1
+      name: enemyC_death1
       rect:
         serializedVersion: 2
         x: 1248
@@ -367,14 +379,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf5aec367e0db0e50800000000000000
-      internalID: 6776739756539553275
+      spriteID: dc93ed8a3198ac800800000000000000
+      internalID: 633469415129496013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_death2
+      name: enemyC_death2
       rect:
         serializedVersion: 2
         x: 1400
@@ -388,17 +400,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 114694e8fc25c78c0800000000000000
-      internalID: -4000231317612960751
+      spriteID: 900ccdf682a6514c0800000000000000
+      internalID: -4317427945856778231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_death3
+      name: enemyC_death3
       rect:
         serializedVersion: 2
-        x: 1552
+        x: 1554
         y: 520
         width: 104
         height: 120
@@ -409,14 +421,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f31497bffcd32e30800000000000000
-      internalID: 4477665445391111152
+      spriteID: ed690b0c5b4511fe0800000000000000
+      internalID: -1220100884442081570
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_death4
+      name: enemyC_death4
       rect:
         serializedVersion: 2
         x: 1704
@@ -430,14 +442,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0adb205e346e6ad0800000000000000
-      internalID: -2707116107207288305
+      spriteID: f4e69b0cc22c17910800000000000000
+      internalID: 1833460020784229967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_left_idle
+      name: enemyC_right_idle
       rect:
         serializedVersion: 2
         x: 32
@@ -451,14 +463,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8462a662b6a47e160800000000000000
-      internalID: 7054689165365618248
+      spriteID: 24793a9ce21384600800000000000000
+      internalID: 452665839571932994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_left_walk1
+      name: enemyC_right_walk1
       rect:
         serializedVersion: 2
         x: 184
@@ -472,18 +484,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b2123c4a510595e0800000000000000
-      internalID: -1903613780157132110
+      spriteID: a67848755db26d020800000000000000
+      internalID: 2366126849526105962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_left_walk2
+      name: enemyC_right_walk2
       rect:
         serializedVersion: 2
         x: 336
-        y: 354
+        y: 352
         width: 104
         height: 120
       alignment: 7
@@ -493,14 +505,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 764fee3d2eb6e4500800000000000000
-      internalID: 382361640335504487
+      spriteID: 478d1260ee64f6510800000000000000
+      internalID: 1544531185330411636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_left_attack1
+      name: enemyC_right_attack1
       rect:
         serializedVersion: 2
         x: 488
@@ -514,17 +526,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ecc7540b71491760800000000000000
-      internalID: 7429041056933989602
+      spriteID: fb21cf79c10edc820800000000000000
+      internalID: 2940252545156387519
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_left_attack2
+      name: enemyC_right_attack2
       rect:
         serializedVersion: 2
-        x: 640
+        x: 642
         y: 352
         width: 104
         height: 120
@@ -535,14 +547,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5dab40e3f058d0cd0800000000000000
-      internalID: -2590267910156666155
+      spriteID: 91922f82a39bb27a0800000000000000
+      internalID: -6400818785930827495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_left_attack3
+      name: enemyC_right_attack3
       rect:
         serializedVersion: 2
         x: 792
@@ -556,14 +568,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30f67c8f9dfcd9c00800000000000000
-      internalID: 909111234887380739
+      spriteID: 60e1eba2c742b1110800000000000000
+      internalID: 1232619038727609862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_left_attack4
+      name: enemyC_right_attack4
       rect:
         serializedVersion: 2
         x: 944
@@ -577,14 +589,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d566b35e2a4a4c030800000000000000
-      internalID: 3514114628793362013
+      spriteID: 681515c120fc55eb0800000000000000
+      internalID: -4731648225510862458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_left_hit
+      name: enemyC_right_hit
       rect:
         serializedVersion: 2
         x: 1096
@@ -598,14 +610,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1043e312c4a812f50800000000000000
-      internalID: 6854912167414477825
+      spriteID: b5773209d4823ecb0800000000000000
+      internalID: -4835977261269944485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_right_idle
+      name: enemyC_left_idle
       rect:
         serializedVersion: 2
         x: 32
@@ -619,14 +631,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10fe884a26824e960800000000000000
-      internalID: 7630268072804806401
+      spriteID: 473da24cd99856450800000000000000
+      internalID: 6081418182527734644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_right_walk1
+      name: enemyC_left_walk1
       rect:
         serializedVersion: 2
         x: 184
@@ -640,14 +652,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d00f2594506c95700800000000000000
-      internalID: 529672157200052237
+      spriteID: e86a7d51e508d21a0800000000000000
+      internalID: -6832663918069438834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_right_walk2
+      name: enemyC_left_walk2
       rect:
         serializedVersion: 2
         x: 336
@@ -661,14 +673,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f301ac98480a9ff0800000000000000
-      internalID: -28701339666021386
+      spriteID: ff6287c2b85f38500800000000000000
+      internalID: 397431170234066687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_right_attack1
+      name: enemyC_left_attack1
       rect:
         serializedVersion: 2
         x: 488
@@ -682,14 +694,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92435533fc37cb710800000000000000
-      internalID: 1710369292250592297
+      spriteID: 6c63be9c6bde8ec00800000000000000
+      internalID: 930254692379473606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_right_attack2
+      name: enemyC_left_attack2
       rect:
         serializedVersion: 2
         x: 640
@@ -703,14 +715,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c6f018946afec040800000000000000
-      internalID: 4669945173584705223
+      spriteID: 6b041b7e10d184e60800000000000000
+      internalID: 7946633436514566326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_right_attack3
+      name: enemyC_left_attack3
       rect:
         serializedVersion: 2
         x: 792
@@ -724,14 +736,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5595e502e77107cd0800000000000000
-      internalID: -2562522357497439915
+      spriteID: 7c1b18a2e2aebfee0800000000000000
+      internalID: -1226128989525790265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_right_attack4
+      name: enemyC_left_attack4
       rect:
         serializedVersion: 2
         x: 944
@@ -745,14 +757,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89aeaeba96ce16a40800000000000000
-      internalID: 5359824970147621528
+      spriteID: 15bcf9731a10c6770800000000000000
+      internalID: 8605254779932756817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_right_hit
+      name: enemyC_left_hit
       rect:
         serializedVersion: 2
         x: 1096
@@ -766,14 +778,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31d7763c76dbd5030800000000000000
-      internalID: 3485149940012252435
+      spriteID: e55182339de485870800000000000000
+      internalID: 8671767777275024734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_back_idle
+      name: enemyC_back_idle
       rect:
         serializedVersion: 2
         x: 32
@@ -787,14 +799,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d48dde9442b646950800000000000000
-      internalID: 6441391170649970765
+      spriteID: e91a480a422360b80800000000000000
+      internalID: -8428994519684046434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_back_walk1
+      name: enemyC_back_walk1
       rect:
         serializedVersion: 2
         x: 184
@@ -808,14 +820,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 055becb242b63dd40800000000000000
-      internalID: 5607943764104361296
+      spriteID: 7193903be301c6a40800000000000000
+      internalID: 5362679117769160983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_back_walk2
+      name: enemyC_back_walk2
       rect:
         serializedVersion: 2
         x: 336
@@ -829,14 +841,98 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a16a2fa6b76202640800000000000000
-      internalID: 5053081093426816538
+      spriteID: 4b5e4e9048a7ce460800000000000000
+      internalID: 7272322205816776116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyB_back_hit
+      name: enemyC_back_attack1
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 16
+        width: 104
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9b514b073804700800000000000000
+      internalID: 522562076855876095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyC_back_attack2
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 16
+        width: 104
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a408385595b4bd4f0800000000000000
+      internalID: -802965261496647606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyC_back_attack3
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 16
+        width: 104
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0409dac626260e2d0800000000000000
+      internalID: -3251490756091867072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyC_back_attack4
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 16
+        width: 104
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7929868578bfda2b0800000000000000
+      internalID: -5571520605265030505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyC_back_hit
       rect:
         serializedVersion: 2
         x: 1096
@@ -850,8 +946,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ebe0b53ce1db7f80800000000000000
-      internalID: -8107655891707171872
+      spriteID: c23f543f721281070800000000000000
+      internalID: 8077242387157873452
       vertices: []
       indices: 
       edges: []

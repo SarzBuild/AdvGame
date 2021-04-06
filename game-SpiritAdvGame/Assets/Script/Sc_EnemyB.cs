@@ -7,6 +7,8 @@ public class Sc_EnemyB : MonoBehaviour
 {
     public Transform target;
     private Rigidbody2D rb2d;
+    public GameObject laserPrefab;
+    public Transform firePoint;
     private Vector2 movement;
     public float moveSpeed;
     public float fleeingMoveSpeed;
@@ -19,6 +21,7 @@ public class Sc_EnemyB : MonoBehaviour
     private bool isSpirit;
     private bool hasLegs;
     private bool isFullBody;
+    public float laserForce = 20f;
 
     void Start()
     {
@@ -30,8 +33,8 @@ public class Sc_EnemyB : MonoBehaviour
     {
         moveSpeed = 3f;
         fleeingMoveSpeed = 2f;
-        aggroRange = 10f;
-        aggroRangeAttacks = 5f;
+        aggroRange = 4f;
+        aggroRangeAttacks = 2f;
         originalPos = rb2d.position;
     }
     void Update()
@@ -124,6 +127,11 @@ public class Sc_EnemyB : MonoBehaviour
 
     void RangedAttacks()
     {
+        Debug.Log("attack!");
         // Attack Mechanics
+        GameObject laser = Instantiate(laserPrefab, firePoint.position, firePoint.rotation);
+        Rigidbody2D rb = laser.GetComponent<Rigidbody2D>();
+        Vector2 dir = -(transform.position - target.position);
+        rb.AddForce(dir * laserForce, ForceMode2D.Impulse);
     }
 }
