@@ -4,112 +4,112 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 4403879543691003618
-    second: enemyC_FULL_0
+    second: enemyC_front_idle
   - first:
       213: -1644260412846912369
-    second: enemyC_FULL_1
+    second: enemyC_front_walk1
   - first:
       213: 7612214723950074234
-    second: enemyC_FULL_2
+    second: enemyC_front_walk2
   - first:
       213: -3807928203121143350
-    second: enemyC_FULL_3
+    second: enemyC_front_attack1
   - first:
       213: -3433386956670063669
-    second: enemyC_FULL_4
+    second: enemyC_front_attack2
   - first:
       213: -8946432955291504984
-    second: enemyC_FULL_5
+    second: enemyC_front_attack3
   - first:
       213: 6267778547844261421
-    second: enemyC_FULL_6
+    second: enemyC_front_attack4
   - first:
       213: 6427179046928032344
-    second: enemyC_FULL_7
+    second: enemyC_front_hit
   - first:
       213: 633469415129496013
-    second: enemyC_FULL_8
+    second: enemyC_death1
   - first:
       213: -4317427945856778231
-    second: enemyC_FULL_9
+    second: enemyC_death2
   - first:
       213: -1220100884442081570
-    second: enemyC_FULL_10
+    second: enemyC_death3
   - first:
       213: 1833460020784229967
-    second: enemyC_FULL_11
+    second: enemyC_death4
   - first:
       213: 452665839571932994
-    second: enemyC_FULL_12
+    second: enemyC_right_idle
   - first:
       213: 2366126849526105962
-    second: enemyC_FULL_13
+    second: enemyC_right_walk1
   - first:
       213: 1544531185330411636
-    second: enemyC_FULL_14
+    second: enemyC_right_walk2
   - first:
       213: 2940252545156387519
-    second: enemyC_FULL_15
+    second: enemyC_right_attack1
   - first:
       213: -6400818785930827495
-    second: enemyC_FULL_16
+    second: enemyC_right_attack2
   - first:
       213: 1232619038727609862
-    second: enemyC_FULL_17
+    second: enemyC_right_attack3
   - first:
       213: -4731648225510862458
-    second: enemyC_FULL_18
+    second: enemyC_right_attack4
   - first:
       213: -4835977261269944485
-    second: enemyC_FULL_19
+    second: enemyC_right_hit
   - first:
       213: 6081418182527734644
-    second: enemyC_FULL_20
+    second: enemyC_left_idle
   - first:
       213: -6832663918069438834
-    second: enemyC_FULL_21
+    second: enemyC_left_walk1
   - first:
       213: 397431170234066687
-    second: enemyC_FULL_22
+    second: enemyC_left_walk2
   - first:
       213: 930254692379473606
-    second: enemyC_FULL_23
+    second: enemyC_left_attack1
   - first:
       213: 7946633436514566326
-    second: enemyC_FULL_24
+    second: enemyC_left_attack2
   - first:
       213: -1226128989525790265
-    second: enemyC_FULL_25
+    second: enemyC_left_attack3
   - first:
       213: 8605254779932756817
-    second: enemyC_FULL_26
+    second: enemyC_left_attack4
   - first:
       213: 8671767777275024734
-    second: enemyC_FULL_27
+    second: enemyC_left_hit
   - first:
       213: -8428994519684046434
-    second: enemyC_FULL_28
+    second: enemyC_back_idle
   - first:
       213: 5362679117769160983
-    second: enemyC_FULL_29
+    second: enemyC_back_walk1
   - first:
       213: 7272322205816776116
-    second: enemyC_FULL_30
+    second: enemyC_back_walk2
   - first:
       213: 522562076855876095
-    second: enemyC_FULL_31
+    second: enemyC_back_attack1
   - first:
       213: -802965261496647606
-    second: enemyC_FULL_32
+    second: enemyC_back_attack2
   - first:
       213: -3251490756091867072
-    second: enemyC_FULL_33
+    second: enemyC_back_attack3
   - first:
       213: -5571520605265030505
-    second: enemyC_FULL_34
+    second: enemyC_back_attack4
   - first:
       213: 8077242387157873452
-    second: enemyC_FULL_35
+    second: enemyC_back_hit
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -197,7 +197,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: enemyC_FULL_0
+      name: enemyC_front_idle
       rect:
         serializedVersion: 2
         x: 32
@@ -218,7 +218,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_1
+      name: enemyC_front_walk1
       rect:
         serializedVersion: 2
         x: 184
@@ -239,7 +239,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_2
+      name: enemyC_front_walk2
       rect:
         serializedVersion: 2
         x: 336
@@ -260,7 +260,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_3
+      name: enemyC_front_attack1
       rect:
         serializedVersion: 2
         x: 488
@@ -281,7 +281,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_4
+      name: enemyC_front_attack2
       rect:
         serializedVersion: 2
         x: 640
@@ -302,7 +302,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_5
+      name: enemyC_front_attack3
       rect:
         serializedVersion: 2
         x: 792
@@ -323,7 +323,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_6
+      name: enemyC_front_attack4
       rect:
         serializedVersion: 2
         x: 944
@@ -344,7 +344,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_7
+      name: enemyC_front_hit
       rect:
         serializedVersion: 2
         x: 1096
@@ -365,7 +365,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_8
+      name: enemyC_death1
       rect:
         serializedVersion: 2
         x: 1248
@@ -386,7 +386,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_9
+      name: enemyC_death2
       rect:
         serializedVersion: 2
         x: 1400
@@ -407,10 +407,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_10
+      name: enemyC_death3
       rect:
         serializedVersion: 2
-        x: 1552
+        x: 1554
         y: 520
         width: 104
         height: 120
@@ -428,7 +428,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_11
+      name: enemyC_death4
       rect:
         serializedVersion: 2
         x: 1704
@@ -449,7 +449,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_12
+      name: enemyC_right_idle
       rect:
         serializedVersion: 2
         x: 32
@@ -470,7 +470,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_13
+      name: enemyC_right_walk1
       rect:
         serializedVersion: 2
         x: 184
@@ -491,7 +491,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_14
+      name: enemyC_right_walk2
       rect:
         serializedVersion: 2
         x: 336
@@ -512,7 +512,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_15
+      name: enemyC_right_attack1
       rect:
         serializedVersion: 2
         x: 488
@@ -533,10 +533,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_16
+      name: enemyC_right_attack2
       rect:
         serializedVersion: 2
-        x: 640
+        x: 642
         y: 352
         width: 104
         height: 120
@@ -554,7 +554,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_17
+      name: enemyC_right_attack3
       rect:
         serializedVersion: 2
         x: 792
@@ -575,7 +575,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_18
+      name: enemyC_right_attack4
       rect:
         serializedVersion: 2
         x: 944
@@ -596,7 +596,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_19
+      name: enemyC_right_hit
       rect:
         serializedVersion: 2
         x: 1096
@@ -617,7 +617,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_20
+      name: enemyC_left_idle
       rect:
         serializedVersion: 2
         x: 32
@@ -638,7 +638,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_21
+      name: enemyC_left_walk1
       rect:
         serializedVersion: 2
         x: 184
@@ -659,7 +659,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_22
+      name: enemyC_left_walk2
       rect:
         serializedVersion: 2
         x: 336
@@ -680,7 +680,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_23
+      name: enemyC_left_attack1
       rect:
         serializedVersion: 2
         x: 488
@@ -701,7 +701,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_24
+      name: enemyC_left_attack2
       rect:
         serializedVersion: 2
         x: 640
@@ -722,7 +722,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_25
+      name: enemyC_left_attack3
       rect:
         serializedVersion: 2
         x: 792
@@ -743,7 +743,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_26
+      name: enemyC_left_attack4
       rect:
         serializedVersion: 2
         x: 944
@@ -764,7 +764,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_27
+      name: enemyC_left_hit
       rect:
         serializedVersion: 2
         x: 1096
@@ -785,7 +785,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_28
+      name: enemyC_back_idle
       rect:
         serializedVersion: 2
         x: 32
@@ -806,7 +806,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_29
+      name: enemyC_back_walk1
       rect:
         serializedVersion: 2
         x: 184
@@ -827,7 +827,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_30
+      name: enemyC_back_walk2
       rect:
         serializedVersion: 2
         x: 336
@@ -848,7 +848,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_31
+      name: enemyC_back_attack1
       rect:
         serializedVersion: 2
         x: 488
@@ -869,7 +869,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_32
+      name: enemyC_back_attack2
       rect:
         serializedVersion: 2
         x: 640
@@ -890,7 +890,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_33
+      name: enemyC_back_attack3
       rect:
         serializedVersion: 2
         x: 792
@@ -911,7 +911,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_34
+      name: enemyC_back_attack4
       rect:
         serializedVersion: 2
         x: 944
@@ -932,7 +932,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyC_FULL_35
+      name: enemyC_back_hit
       rect:
         serializedVersion: 2
         x: 1096
