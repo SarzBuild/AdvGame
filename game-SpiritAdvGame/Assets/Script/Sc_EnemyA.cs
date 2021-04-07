@@ -44,7 +44,6 @@ public class Sc_EnemyA : MonoBehaviour
         rb2d.velocity = Vector2.zero;
         rb2d.constraints = RigidbodyConstraints2D.FreezeRotation;
         Quaternion childTransformVector = childTransform.rotation;
-        Debug.Log(childTransformVector.z);
         childTransformVector.z = -transform.rotation.z;
         CharacterState();
         SpiritCollision();
@@ -80,8 +79,13 @@ public class Sc_EnemyA : MonoBehaviour
         else if (!playerIsInAggroRange)
         {
             rb2d.position = originalPos; 
-            rb2d.rotation = 0f; 
-            
+            rb2d.rotation = 0f;
+        }
+        else
+        {
+            myAnim.SetBool("isWalking", false);
+            myAnim.SetFloat("X", movement.x);
+            myAnim.SetFloat("Y", movement.y);
         }
     }
     void EnemyBehaviourWhenCharacterHasBody()
@@ -100,14 +104,21 @@ public class Sc_EnemyA : MonoBehaviour
     }
     void MoveAndLookTowardsPlayer()
     {
+        Vector3 direction = target.position - transform.position;
         if (Vector2.Distance(transform.position, target.position) > 0.25f)
         {
-            Vector3 direction = target.position - transform.position;
+            //Vector3 direction = target.position - transform.position;
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
             rb2d.rotation = angle;
             direction.Normalize();
             movement = direction;
             rb2d.MovePosition(transform.position + (direction * moveSpeed * Time.deltaTime));
+            
+            bool isIdle = direction.x == 0 && direction.y == 0;
+            myAnim.SetBool("isWalking", true);
+            myAnim.SetFloat("X", direction.x);
+            myAnim.SetFloat("Y", direction.y);
+            
         }
     }
 
@@ -141,16 +152,30 @@ public class Sc_EnemyA : MonoBehaviour
         if (collision.collider.tag == "Player" && hasLegs || collision.collider.tag == "Player" && isFullBody)
         {
             //attack animator
-            Debug.Log("Ouch");
+            myAnim.SetBool("isAttacking", true);
+            myAnim.SetFloat("X", movement.x);
+            myAnim.SetFloat("Y", movement.y);
             playerControler = FindObjectOfType<Sc_PlayerControler>();
             playerControler.GotHit();
+        }
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.collider.tag == "Player" && hasLegs || collision.collider.tag == "Player" && isFullBody)
+        {
+            //attack animator
+            myAnim.SetBool("isAttacking", false);
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Hitbox")
         {
-            Destroy(gameObject);
+            myAnim.SetBool("isDead", true);            
         }
+    }
+    public void Death()
+    {
+        Destroy(gameObject);
     }
 }
