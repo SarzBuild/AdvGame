@@ -35,7 +35,7 @@ public class Sc_EnemyA : MonoBehaviour
     {
         moveSpeed = 3f;
         fleeingMoveSpeed = 2f;
-        aggroRange = 10f;
+        aggroRange = 20f;
         originalPos = rb2d.position;
     }
     void Update()

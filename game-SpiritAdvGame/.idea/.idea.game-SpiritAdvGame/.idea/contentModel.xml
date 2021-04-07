@@ -6,8 +6,22 @@
     <e p="D:\Desktop\Projects\Repo-AdvGame\game-AdvGame\game-SpiritAdvGame" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Sc_DoorOpenerManager.cs" t="Include" />
+        <e p="Sc_LaserShot.cs" t="Include" />
+        <e p="Sc_LegCharacterUpdater.cs" t="Include" />
+        <e p="Sc_Puzzle1Manager.cs" t="Include" />
+        <e p="Sc_Puzzle2Manager.cs" t="Include" />
+        <e p="Sc_Puzzle3Manager.cs" t="Include" />
+        <e p="Sc_SendMessage1.cs" t="Include" />
+        <e p="Sc_SendMessage2.cs" t="Include" />
+        <e p="Sc_SendMessage3.cs" t="Include" />
+        <e p="Sc_SendMessage4.cs" t="Include" />
+        <e p="Sc_SendMessage5.cs" t="Include" />
+        <e p="Sc_SendMessage6.cs" t="Include" />
+        <e p="Sc_TutorialButtonManager.cs" t="Include" />
         <e p="Script" t="Include">
           <e p="Puzzles" t="Include">
+            <e p="Sc_LegPuzzleManager.cs" t="Include" />
             <e p="Tutorial Puzzle" t="Include">
               <e p="Sc_Puzzle_TutorialButton.cs" t="Include" />
               <e p="Sc_Puzzle_TutorialDoor.cs" t="Include" />
@@ -18,6 +32,7 @@
           <e p="Sc_EnemyA.cs" t="Include" />
           <e p="Sc_EnemyB.cs" t="Include" />
           <e p="Sc_EnemyC.cs" t="Include" />
+          <e p="Sc_EnemyUpperLevelCollidingManager.cs" t="Include" />
           <e p="Sc_HealthBar.cs" t="Include" />
           <e p="Sc_Hitbox.cs" t="Include" />
           <e p="Sc_PlayerControler.cs" t="Include" />
@@ -32,7 +47,9 @@
             <e p="Sc_DisableFrustrumCulling.cs" t="Include" />
             <e p="Sc_FieldOfView.cs" t="Include" />
             <e p="Sc_IsometricSpriteRenderer.cs" t="Include" />
+            <e p="Sc_PlayerUpperLevelCollidingManager.cs" t="Include" />
             <e p="Sc_StaticIsometricSpriteRenderer.cs" t="Include" />
+            <e p="Sc_UpperLvlColliderListener.cs" t="Include" />
           </e>
         </e>
       </e>

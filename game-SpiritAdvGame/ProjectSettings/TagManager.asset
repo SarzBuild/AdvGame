@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Hitbox
   - UsedByRenderingTileMap
+  - TruePlayer
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -18,7 +20,7 @@ TagManager:
   - Level
   - Player
   - Walls
-  - 
+  - UpperLVL
   - 
   - 
   - 

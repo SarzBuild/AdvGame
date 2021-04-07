@@ -15,7 +15,7 @@ public class Sc_StaticIsometricSpriteRenderer : MonoBehaviour
 
     void Start()
     {
-        player = GameObject.FindWithTag("Player");
+        //player = GameObject.FindWithTag("TruePlayer");
     }
 
     public void UpdateRenderOrder()
