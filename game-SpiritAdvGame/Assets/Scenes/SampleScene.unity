@@ -694,6 +694,58 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4443250926930180194, guid: 410e5ac34e0e1af48af631f5b4fea8cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876583422285456129, guid: 410e5ac34e0e1af48af631f5b4fea8cb, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876583422305538587, guid: 410e5ac34e0e1af48af631f5b4fea8cb, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876583422370403825, guid: 410e5ac34e0e1af48af631f5b4fea8cb, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876583422542216285, guid: 410e5ac34e0e1af48af631f5b4fea8cb, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876583422623232916, guid: 410e5ac34e0e1af48af631f5b4fea8cb, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876583422799241254, guid: 410e5ac34e0e1af48af631f5b4fea8cb, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876583423400456918, guid: 410e5ac34e0e1af48af631f5b4fea8cb, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876583423694038196, guid: 410e5ac34e0e1af48af631f5b4fea8cb, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876583423719371757, guid: 410e5ac34e0e1af48af631f5b4fea8cb, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876583423817336535, guid: 410e5ac34e0e1af48af631f5b4fea8cb, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876583423833569039, guid: 410e5ac34e0e1af48af631f5b4fea8cb, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876583423868974316, guid: 410e5ac34e0e1af48af631f5b4fea8cb, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 5752132662794945276, guid: 410e5ac34e0e1af48af631f5b4fea8cb, type: 3}
       propertyPath: m_Name
       value: All Enemy C
