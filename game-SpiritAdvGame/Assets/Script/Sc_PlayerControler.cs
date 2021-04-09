@@ -7,6 +7,7 @@ public class Sc_PlayerControler : MonoBehaviour
     Sc_SelectChildObject playerState;
     public static float speed = 3.5f;
     Animator ghostAnimator;
+    private Rigidbody2D rb2d;
     //SpriteRenderer spriteGhost;
     //SpriteRenderer spriteLegs;
     //SpriteRenderer spriteFull;
@@ -33,9 +34,10 @@ public class Sc_PlayerControler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        isIdle = true;        
-        playerState = GetComponent<Sc_SelectChildObject>();        
+        isIdle = true;
+        playerState = GetComponent<Sc_SelectChildObject>();
         ghostAnimator = GetComponent<Animator>();
+        rb2d = GetComponent<Rigidbody2D>();
         //spriteGhost = GetComponent<SpriteRenderer>();
         //spriteLegs = transform.GetChild(0).GetComponent<SpriteRenderer>();
         //spriteFull = transform.GetChild(1).GetComponent<SpriteRenderer>();
@@ -45,6 +47,7 @@ public class Sc_PlayerControler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        rb2d.velocity = Vector2.zero;
         switch (state)
         {
             case State.Normal:
@@ -91,7 +94,7 @@ public class Sc_PlayerControler : MonoBehaviour
         isIdle = moveX == 0 && moveY == 0;
         if (moveY < 0)
         {
-            
+
             sr.flipX = true;
         }
         else
@@ -103,7 +106,7 @@ public class Sc_PlayerControler : MonoBehaviour
             //Play idle animation
             ghostAnimator.SetBool("isWalking", false);
             ghostAnimator.SetFloat("X", lastMoveDirection.x);
-            ghostAnimator.SetFloat("Y", lastMoveDirection.y);        
+            ghostAnimator.SetFloat("Y", lastMoveDirection.y);
         }
         else
         {
@@ -115,7 +118,7 @@ public class Sc_PlayerControler : MonoBehaviour
                 //Walk Animation
                 ghostAnimator.SetBool("isWalking", true);
                 ghostAnimator.SetFloat("X", moveX);
-                ghostAnimator.SetFloat("Y", moveY);                
+                ghostAnimator.SetFloat("Y", moveY);
             }
             else
             {
@@ -204,7 +207,10 @@ public class Sc_PlayerControler : MonoBehaviour
     IEnumerator Hit()
     {
         yield return new WaitForSeconds(0.1f);
-        gotHit = false;
+    }
+    public void Die()
+    {
         isDead = true;
+        Destroy(gameObject);
     }
 }

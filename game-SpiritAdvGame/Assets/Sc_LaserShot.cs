@@ -17,6 +17,7 @@ public class Sc_LaserShot : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        Debug.Log("poof");
         Destroy(gameObject);
     }
 }
