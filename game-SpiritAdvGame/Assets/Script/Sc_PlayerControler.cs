@@ -159,7 +159,7 @@ public class Sc_PlayerControler : MonoBehaviour
 
     private void HandleSlide()
     {
-        if (Input.GetKeyDown(KeyCode.LeftControl) && playerState.hasLegs)
+        if (Input.GetKeyDown(KeyCode.Mouse1) && playerState.hasLegs)
         {
             state = State.Sliding;
             slideSpeed = 20f;
@@ -179,7 +179,7 @@ public class Sc_PlayerControler : MonoBehaviour
     }
     private void Attack()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && !isAttacking && playerState.hasArms)
+        if (Input.GetKeyDown(KeyCode.Mouse0) && !isAttacking && playerState.hasArms)
         {
             isAttacking = true;
             StartCoroutine(DoAttack());
